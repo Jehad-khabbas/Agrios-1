@@ -1,0 +1,17 @@
+@import "tailwindcss";
+
+@theme{
+    
+    --color-muted:#878680;
+    --font-Manrope: 'Manrope';
+
+}
+@layer base{
+   body{
+    
+    font-family: var(--font-Manrope);
+   } 
+}
+.Communication-link{
+    @apply font-bold hover:text-green-600 transition-colors;
+}
