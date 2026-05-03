@@ -13,5 +13,9 @@
    } 
 }
 .Communication-link{
-    @apply font-bold hover:text-green-600 transition-colors;
+  @apply font-bold hover:text-green-600 transition-colors;
+}
+.nav-a {
+  @apply text-[#878680] hover:text-[#1F1E17] transition
+   hover:underline underline-offset-3 ;
 }
