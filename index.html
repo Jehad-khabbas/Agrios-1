@@ -82,7 +82,7 @@
          style="background-image: url('./assets/Home-1/Imags/bg-navbar.svg');">
             
         
-             <div class="container mx-auto flex py-6  items-center justify-between px-3 md:px-0 ">
+             <div class="container mx-auto flex py-6 items-center justify-between px-2.5 md:px-3 ">
                  <div >
                       <div class="block md:hidden">
                  <i class="fa-solid fa-bars text-2xl"></i>
@@ -128,8 +128,38 @@
     </nav>
 
     <main>
-        <section>
-            
+        <!-- Hero -->
+        <section class="relative min-h-screen bg-cover bg-center bg-no-repeat overflow-hidden"
+        style="background-image: url('./assets/Home-1/Imags/bg_section1.svg');">
+             <!-- overlay -->
+        <!-- <div class="absolute inset-0 bg-black/40"></div> -->
+
+        <div class="container mx-auto min-h-screen relative z-10 flex items-center justify-between py-6 px-4 sm:px-6 lg:px-10">
+            <div class="max-w-2xl ">
+                <p class=" text-sm text-white font-semibold mb-4.5">Welcome to agrios farming</p>
+                <img src="./assets/Home-1/Imags/hero c.svg" 
+                    class="mb-6 md:mb-8 w-full" alt="">
+
+                <p class="text-[#dfdcd1] text-sm md:text-base max-w-2xl mb-8">
+                    Lorem, ipsum dolor sit amet consectetur adipisicing elit. Aut, facilis? Rem error tempore,
+                    quia praesentium voluptas officiis, tempora harum vero totam magni repellat itaque odio!
+                </p>
+
+                <div class="flex flex-col md:flex-row items-center gap-5">
+                    <button class=" bg-[#4BAF47] text-white rounded-lg py-3 px-8 md:py-4 md:px-12 font-semibold hover:bg-[#3f9c3c] transition"> 
+                        Discover More
+                    </button>
+
+                    <img src="./assets/Home-1/Imags/Leaf.svg" alt="">
+                </div>    
+
+            </div>
+            <div class="hidden md:flex flex-col px-2.5 gap-2.5">
+                <img src="./assets/Home-1/Icons/circle2.svg" alt="">
+                <img src="./assets/Home-1/Icons/circle1.svg" alt="">
+            </div>
+        </div>
+       
         </section>
     </main>
 
